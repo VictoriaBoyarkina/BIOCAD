@@ -118,7 +118,9 @@ export const Form: FC<{
       >
         Сравнить
       </Button>
-      <ErrorField error={errors["_lengthCompare"]?.message} />
+      {!errors.input1 && !errors.input2 && (
+        <ErrorField error={errors["_lengthCompare"]?.message} />
+      )}
     </form>
   );
 };
