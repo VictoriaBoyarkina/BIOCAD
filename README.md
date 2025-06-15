@@ -1,6 +1,8 @@
 # 🔬 Выравниванием аминокислотные последовательности
 
-[Описание задания читаем тут](https://github.com/biocad/career/blob/master/tests/front.md)
+[Описание задания читаем тут](https://github.com/biocad/career/blob/master/tests/front.md) 
+
+[Сам инструмент смотрим тут](https://victoriaboyarkina.github.io/BIOCAD)
 
 ---
 
