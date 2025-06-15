@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "es6", // Changed from ES6 to ESNext
+    "moduleResolution": "Node", // Explicitly added
+    "jsx": "react-jsx", // Changed from "react" to "react-jsx" (for React 17+)
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": ["@types/react", "@types/react-dom"] // Explicitly added
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
